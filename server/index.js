@@ -12,7 +12,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://multi-step-profile-form-beta.vercel.app/"]
+  origin: ["http://localhost:5173", "https://vercel-frontend-five-topaz.vercel.app/"]
 }));
 
 app.use(express.json());
